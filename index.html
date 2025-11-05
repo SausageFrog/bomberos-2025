@@ -96,7 +96,17 @@
                 </figure>
             </aside>
         </section>
-        <section aria-labelledby="news-section" class="news-section">
+
+        <!--Diseno de noticias similar a la del Diego, es un FlexBox, flex-direction: row
+        Copia cada article y ponle la misma class="news-card" para ahorrarte tener que personalizar
+        cada tarjeta. 
+        Cada article es una tarjeta de noticia diferente con su imagen (contenido en un figure)
+        y el contenido de la noticia (contenido en un div). En la etiqueta anchor (<a...>) el href esta con un 
+        place-holder (#) para luego implementar la nueva pagina que lleva a la noticia completa.
+        En los "class=nombre" usa los mismos nombres para que todos se vean iguales.
+        En el CSS estan implementados algunas cosas como el padding y el layout.-->
+        
+            <section aria-labelledby="news-section" class="news-section">
             <header class="news-header">
                 <h2>Noticias</h2>
                 <p>Ultimas novedades de la compañía</p>
@@ -140,17 +150,19 @@
                 </article>
             </div>
         </section>
+
+          <!--La siguiente seccion tiene que modificarse para incluir las autoridades.
+                El diseño puede ser similar a la de la primera de Santiago. 
+                Cada box de la autoridad debe ir en un figure diferentes para luego
+                no tener problemas con el layout en css-->
+                <!--ANADIR IMAGENES-->
+
         <section aria-labelby="autorities-section" class="autorities-section">
             <header class="autorities-header">
                 <h2>Autoridades</h2>
                 <p>Directiva del Cuerpo y Oficialidad de la Compañia</p>
             </header>
             <div class="autorities-layout">
-                <!--La siguiente seccion debe modificarse a futuro para incluir las autoridades.
-                El diseño a seguir es similar a la de la primera de Santiago.
-                Cada box de la autoridad debe ir en un figure doferentes para luego
-                no tener problemas con el layout en css-->
-                <!--ANADIR IMAGENES-->
                 <figure class="autorities-card">
                     <figcaption>Directiva y oficiales</figcaption>
                 </figure>
