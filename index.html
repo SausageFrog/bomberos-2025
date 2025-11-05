@@ -20,70 +20,74 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-        <span>
-            <img id="logo" src="./images/logo/logo1compañia.png" alt="Logo primera" width="40px">
+    <header class="header-section">
+        <div class="header-title">
+            <img id="logo" src="./images/logo/logo1compañia.png" alt="Logo primera">
             <hgroup>
                 <h3>Cuerpo de Bomberos de Temuco</h3>
                 <p>Primera Compañia</p>    
             </hgroup>
-        </span>
-        <nav>
+        </div>
+        <nav class="header-nav">
             <a href="#">Inicio</a>
             <a href="#">Compañia</a>
             <a href="#">Contacto</a>
         </nav>
-        <div>
-            <a href="#" target="_blank" rel="noreferrer">Radio en vivo</a>
-            <span id="emergencias">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 18" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+        <div class="header-buttons">
+            <div class="header-live">
+                <a href="./pages/radio.html" target="_blank" rel="noreferrer">Radio en vivo</a>
+            </div>
+            <div class="header-emergency">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
                 <a href="#">Emergencias: 132</a>
-            </span>
+            </div>
         </div>
     </header>
     <main>
-        <section class="hero"> 
-            <header class="hero-title">
-                <h1>Cuerpo de Bomberos de Temuco</h1>
-                <h2>Primera compania</h2>
-                <p>"Labor Omnia Vincit" - El trabajo todo lo vence</p>
-                <p>Fundada el 22 de Julio de 1900</p>
-            </header>
-            <div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 7v5l3 3" /></svg>
-                    <h4>24/7</h4>
-                    <p>Servicio</p>
+        <section class="hero">
+            <div class="hero-content">
+                <header class="hero-title">
+                    <h1>Cuerpo de Bomberos de Temuco</h1>
+                    <h2>Primera compania</h2>
+                    <p>"Labor Omnia Vincit" - El trabajo todo lo vence</p>
+                    <p>Fundada el 22 de Julio de 1900</p>
+               </header>
+                <div class="hero-details">
+                    <div class="hero-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 7v5l3 3" /></svg>
+                        <h4>24/7</h4>
+                        <p>Servicio</p>
+                    </div>
+                    <div class="hero-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shield-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12.01 12.01 0 0 1 .378 5" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
+                        <h4>Voluntariado</h4>
+                        <p>Profesionalismo</p>
+                    </div>
+                    <div class="hero-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                        <h4>Rapida</h4>
+                        <p>Respuesta</p>
+                    </div>
                 </div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shield-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12.01 12.01 0 0 1 .378 5" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
-                    <h4>Voluntariado</h4>
-                    <p>Profesionalismo</p>
-                </div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                    <h4>Rapida</h4>
-                    <p>Respuesta</p>
-                </div>
-            </div>
+            </div>     
         </section>
-        <section class="information">
-            <header>
+        <section aria-labelledby="information-section" class="information">
+            <header class="information-header">
                 <h2>Primera Compañia - Cuerpo de Bomberos de Temuco</h2>
                 <p>La Primera Compañía del Cuerpo de Bomberos de Temuco es una de las unidades fundadoras y ha contribuido
                     históricamente a la protección de la comunidad.</p>
                     <p>Su lema <strong>"Labor Omnia Vincit"</strong> refleja la vocación de servicio, disciplina y trabajo en equipo de sus voluntarias y voluntarios.</p>
             </header>
-            <aside>
-                <figure>
+            <aside class="information-box">
+                <figure class="information-card">
                     <h4>0</h4>
                     <p>Voluntarios</p>
                 </figure>
-                <figure>
+                <figure class="information-card">
                     <h4>0</h4>
                     <p>Tiempo medio de respuesta</p>
                 </figure>
-                <figure>
+                <figure class="information-card">
                     <h4>125</h4>
                     <p>Años de servicio</p>
                 </figure>
@@ -91,48 +95,44 @@
                     <h4></h4>
                 </figure>
             </aside>
-            <address>
-                Callejón Inglés Nº 449
-                Temuco · Región de La Araucanía, Chile
-            </address>
         </section>
-        <section aria-labelledby="news-section">
-            <header>
+        <section aria-labelledby="news-section" class="news-section">
+            <header class="news-header">
                 <h2>Noticias</h2>
                 <p>Ultimas novedades de la compañía</p>
             </header>
             <div class="news-list">
-                <article class="news-item">
+                <article class="news-card">
                     <figure class="news-image">
-                        <img src="#" alt="#">
+                        <img src="./images/news/rescatevehicular.jpg" alt="Rescate vehicular">
                     </figure>
                     <div class="news-content">
-                        <h3>Banda de Guerra de Bomberos de Temuco destaca en concurso interregional</h3>
+                        <h3>Nuevo Curso de Rescate Vehicular</h3>
+                        <p class="news-description">Nuestros voluntarios se capacitaron en las últimas técnicas de rescate vehicular</p>
                         <time datetime="2025-10-29" class="news-date">29 de octubre de 2025</time>
-                        <p class="news-description">Con una destacada participación, la Banda de Guerra del Cuerpo de Bomberos de Temuco se alzó con importantes galardones en el primer concurso interregional organizado por la Banda Municipal de Toltén...</p>
-                        <a href="#" class="news-link">Leer mas</a>
+                        <a href="#" class="news-linxk">Leer mas</a>
                     </div>
                 </article>
             </div>
         </section>
-        <section aria-labelledby="specialties-section" class="specialties-title">
-            <header>
+        <section aria-labelledby="specialties-section" class="specialties-section">
+            <header class="specialties-header">
                 <h2>Especialidades</h2>
                 <p>Comprometidos con la protección, prevencion y apoyo a nuestra comunidad</p>
             </header>
             <div class="specialties-grid">
                 <article>
-                    <figure>
+                    <figure class="specialties-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-flame"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.621 -2.333 5.588c0 3.704 3.134 6.706 7 6.706s7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235" /></svg>
                         <h3>Escalas, gancho y hachas</h3>
                         <figcaption>Especialidad tradicional orientada al trabajo manual y táctico en incendios estructurales, con el uso de herramientas para acceso, ventilación y apertura controlada.</figcaption>
                     </figure>
-                    <figure>
+                    <figure class="specialties-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-firetruck"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" /><path d="M12 18v-11h3" /><path d="M3 17l0 -5l9 0" /><path d="M3 9l18 -6" /><path d="M6 12l0 -4" /></svg>
                         <h3>Abastecimiento y control de agua</h3>
                         <figcaption>Incorporada en 1979, esta función incluye el manejo de líneas de agua, abastecimiento desde hidrantes o fuentes naturales, y apoyo a otras compañías durante el combate de incendios.</figcaption>
                     </figure>
-                    <figure>
+                    <figure class="specialties-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-ladder"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 3v18" /><path d="M16 3v18" /><path d="M8 14h8" /><path d="M8 10h8" /><path d="M8 6h8" /><path d="M8 18h8" /></svg>
                         <h3>Rescate en altura</h3>
                         <figcaption>Desde 1989, la compañía cuenta con personal especializado y equipos para operaciones en altura, estructuras elevadas y espacios confinados, garantizando seguridad y eficiencia en situaciones de riesgo.</figcaption>
@@ -140,25 +140,30 @@
                 </article>
             </div>
         </section>
-        <section aria-labelby="autorities-section">
-            <header>
+        <section aria-labelby="autorities-section" class="autorities-section">
+            <header class="autorities-header">
                 <h2>Autoridades</h2>
                 <p>Directiva del Cuerpo y Oficialidad de la Compañia</p>
             </header>
-            <div>
+            <div class="autorities-layout">
                 <!--La siguiente seccion debe modificarse a futuro para incluir las autoridades.
                 El diseño a seguir es similar a la de la primera de Santiago.
                 Cada box de la autoridad debe ir en un figure doferentes para luego
                 no tener problemas con el layout en css-->
-                <figure>
+                <!--ANADIR IMAGENES-->
+                <figure class="autorities-card">
                     <figcaption>Directiva y oficiales</figcaption>
-                    <figcaption>Voluntarios activos </figcaption>
-                    <figcaption>Voluntarios honorarios</figcaption>
+                </figure>
+                <figure class="autorities-card">
+                    <figcaption>Directiva y oficiales</figcaption>            
+                </figure>
+                <figure class="autorities-card">
+                    <figcaption>Directiva y oficiales</figcaption>
                 </figure>
             </div>
         </section>
-        <section aria-labelledby="material-section">
-            <header>
+        <section aria-labelledby="material-section" class="material-section">
+            <header class="material-header">
                 <h2>Material mayor</h2>
                 <p>Unidades de la compañía</p>
             </header>
@@ -181,7 +186,7 @@
                 </article>
             </div>
         </section>
-        <section aria-labelledby="donation-section">
+        <section aria-labelledby="donation-section" class="donation-section">
             <header>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-heart-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.96 6.053" /><path d="M16 19h6" /><path d="M19 16v6" /></svg>
                 <h2>Apoya a la primera compania</h2>
@@ -192,27 +197,61 @@
                 <a href="#">HAZ CLICK AQUI</a>
             </div>
         </section>
-        <section aria-labelledby="security-section">
-            <header>
+        <section aria-labelledby="security-section" class="security-section">
+            <header class="security-header">
                 <h2>Consejos de seguridad</h2>
                 <p>La prevención es clave. Comparte estas recomendaciones con tu familia y comunidad.</p>
             </header>
             <div class="security-layout">
                 <article>
-                    <h3>Seguridad en el hogar</h3>
                     <div class="security-content">
-                        
+                        <figure class="security-card-title">
+                            <!--Anadir SVG de hogar-->
+                            <figcaption>Seguridad en el hogar</figcaption>
+                        </figure>
+                        <p>Instala detectores de humo y prueba su funcionamiento mensualmente.</p>
+                        <p>Ten extintor en cocina y zonas de mayor riesgo, revisa su carga.</p>
+                        <p>Mantén vías de evacuación despejadas y planifica rutas de escape.</p>
+                        <p>No sobrecargues enchufes ni alargadores; revisa instalaciones eléctricas.</p>
                     </div>
                 </article>
+                <div class="security-content">
+                    <figure class="security-card-title">
+                        <!--Anadir SVG precaucion-->
+                        <figcaption>Prevención</figcaption>
+                    </figure>
+                    <p>Nunca dejes la cocina desatendida cuando uses fuego o aceite.</p>
+                    <p>Guarda líquidos inflamables lejos de fuentes de calor.</p>
+                    <p>Limpia ductos, estufas y chimeneas con regularidad.</p>
+                    <p>Si sientes olor a gas, ventila y corta la fuente; no enciendas artefactos.</p>
+                </div>
+                <div class="security-content">
+                    <figure>
+                        <!--Anadir SVG vehiculo-->
+                        <figcaption>Seguridad vehicular</figcaption>
+                    </figure>
+                    <p>Lleva un extintor y verifica su estado periódicamente.</p>
+                    <p>Si el vehículo se recalienta, estaciónate en un lugar seguro.</p>
+                    <p>No fumes durante la carga de combustible.</p>
+                    <p>Realiza mantenciones preventivas.</p>
+                </div>
             </div>
+            <footer class="security-section-footer">
+                <h3>Acciones ante emergencias</h3>
+                <h4>Si sientes olor a gas</h4>
+                <p>Ventila el lugar, no enciendas interruptores ni llamas y comunica la emergencia.</p>
+                <h4>Si hay incendio</h4>
+                <p>Evacúa de inmediato, mantente fuera del lugar y <span class="security-call">llama a Bomberos: 132</span>.</p>
+            </footer>
         </section>
     </main>
-    <footer>
-        <small>
+    <footer aria-labelledby="footer-section" class="footer-section">
+        <p>
             &copy; 2025 Primera Compañia de Bomberos Temuco
-            Diseño web por DevClub - Universidad Autonoma de Temuco
+        </p>
+        <small>
+            Diseño web por DevClub
         </small>
-        
     </footer>
 </body>
 </html>
