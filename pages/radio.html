@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio en vivo - Bomberos Temuco</title>
+</head>
+<body>
+    <header class="header-section">
+        <div class="header-title">
+            <img id="logo" src="../images/logo/logo1compañia.png" alt="Logo primera">
+            <hgroup>
+                <h3>Cuerpo de Bomberos de Temuco</h3>
+                <p>Primera Compañia</p>    
+            </hgroup>
+        </div>
+        <div class="header-buttons">
+            <div class="header-live">
+                <a href="./pages/radio.html" target="" rel="noreferrer">Radio en vivo</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="radio-section">
+            <div aria-labelledby="radio-frame">
+                <header>
+                    <h4>Reproductor</h4>
+                    <div class="radio-buttons">
+                        <a href="https://www.broadcastify.com/webPlayer/14178" target="_blank">Abrir en pestaña</a>
+                    </div>
+                </header>
+                <iframe
+                id="inlineFrameRadio"
+                title="Inline Frame Radio"
+                width="600"
+                height="600"
+                src="https://www.broadcastify.com/webPlayer/14178">
+                </iframe>
+            </div>
+            <footer>
+                <p>Si el reproductor no carga en este recuadro, usa "Abrir en pestaña".</p>
+            </footer>
+        </section>
+        <section>
+            <div class="key-section"> 
+                <header>
+                    <h4>Diccionario de claves</h4>
+                </header>
+                <div>
+                    <input type="search" placeholder="Buscar clave: 10-4, 10-0-3...">
+                    <h5>Escribe una clave (ej: <span class="key-button">10-4</span> o <span class="key-button">qap</span>) o 
+                    recorre la lista completa:</h5>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

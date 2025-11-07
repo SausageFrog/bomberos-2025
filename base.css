@@ -1,0 +1,18 @@
+/*CSS base para los headers, footer y mantener consistencia en la pagina*/
+/*Añadir al comienzo del documento*/
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }

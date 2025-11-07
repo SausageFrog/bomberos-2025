@@ -24,11 +24,6 @@
     --radius: 10px; /*Borde de tarjetas, botones.*/
 }
 
-h1 {
-    font-weight: 800;
-    font-size:xx-large;
-}
-
 a {
     text-decoration: none;
 }
