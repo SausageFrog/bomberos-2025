@@ -199,9 +199,14 @@ body {
 }
 
 .news-card {
-    display: flex;
-    flex-direction: column;
+    dflex-direction: column;
+    justify-content: center;
+    background-color: var(--card);
+    padding: 2rem;
+    margin: 1rem;
     width: 400px;
+    font-size: 12px;
+    border-radius: 10px;
 }
 
 /*-------------------------*/
