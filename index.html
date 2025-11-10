@@ -3,20 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--ESPECIFICOS PARA EL SEO-->
     <title>Primera Temuco</title>
-    <meta name="description" content="Primera Compañia de Bomberos Temuco. Especializada en rescate en
-    altura.">
-    <!--METADATOS ESPECIFICOS PARA APPLE, ADEMAS DE MEJORAR EL SEO-->
+    <meta name="description" content="Primera Compañia de Bomberos Temuco. Especializada en rescate en altura.">
     <meta name="theme-color" content="#">
-    <!--FAVICON-->
     <link rel="icon" type="image/jpg" href="./images/logo/logo1compañia.png">
     <link rel="canonical" href="#">
-    <!--el canonical es simplemente para el redireccionamiento de la pagina-->
-    <!--FUENTES-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./base.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -36,7 +27,8 @@
         </nav>
         <div class="header-buttons">
             <div class="header-live">
-                <a href="./pages/radio.html" target="" rel="noreferrer">Radio en vivo</a>
+                <div class="header-live-circle"></div>
+                <a href="./pages/radio.html" target="_self" rel="noopener noreferrer">Radio en vivo</a>
             </div>
             <div class="header-emergency">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
@@ -56,30 +48,31 @@
                 <div class="hero-details">
                     <div class="hero-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-clock"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 7v5l3 3" /></svg>
-                        <h4>24/7</h4>
+                        <h6>24/7</h6>
                         <p>Servicio</p>
                     </div>
                     <div class="hero-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shield-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12.01 12.01 0 0 1 .378 5" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
-                        <h4>Voluntariado</h4>
+                        <h6>Voluntariado</h6>
                         <p>Profesionalismo</p>
                     </div>
                     <div class="hero-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                        <h4>Rapida</h4>
+                        <h6>Rapida</h6>
                         <p>Respuesta</p>
                     </div>
                 </div>
             </div>     
         </section>
-        <section aria-labelledby="information-section" class="information">
+
+        <section aria-labelledby="information-section" class="information-section">
             <header class="information-header">
                 <h2>Primera Compañia - Cuerpo de Bomberos de Temuco</h2>
                 <p>La Primera Compañía del Cuerpo de Bomberos de Temuco es una de las unidades fundadoras y ha contribuido
                     históricamente a la protección de la comunidad.</p>
                     <p>Su lema <strong>"Labor Omnia Vincit"</strong> refleja la vocación de servicio, disciplina y trabajo en equipo de sus voluntarias y voluntarios.</p>
             </header>
-            <aside class="information-box">
+            <!-- <aside class="information-box">
                 <figure class="information-card">
                     <h4>0</h4>
                     <p>Voluntarios</p>
@@ -92,22 +85,10 @@
                     <h4>125</h4>
                     <p>Años de servicio</p>
                 </figure>
-                <figure>
-                    <h4></h4>
-                </figure>
-            </aside>
+            </aside> -->
         </section>
 
-        <!--Diseno de noticias similar a la del Diego, es un FlexBox, flex-direction: row
-        Copia cada article y ponle la misma class="news-card" para ahorrarte tener que personalizar
-        cada tarjeta. 
-        Cada article es una tarjeta de noticia diferente con su imagen (contenido en un figure)
-        y el contenido de la noticia (contenido en un div). En la etiqueta anchor (<a...>) el href esta con un 
-        place-holder (#) para luego implementar la nueva pagina que lleva a la noticia completa.
-        En los "class=nombre" usa los mismos nombres para que todos se vean iguales.
-        En el CSS estan implementados algunas cosas como el padding y el layout.-->
-        
-            <section aria-labelledby="news-section" class="news-section">
+        <section aria-labelledby="news-section" class="news-section">
             <header class="news-header">
                 <h2>Noticias</h2>
                 <p>Ultimas novedades de la compañía</p>
@@ -148,37 +129,36 @@
                 </article>
             </div>
         </section>
-        <section aria-labelledby="specialties-section" class="specialties-section">
-            <header class="specialties-header">
-                <h2>Especialidades</h2>
-                <p>Comprometidos con la protección, prevencion y apoyo a nuestra comunidad</p>
-            </header>
-                <div class="specialties-grid">
-                    <article>
-                        <figure class="specialties-card">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-flame"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.621 -2.333 5.588c0 3.704 3.134 6.706 7 6.706s7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235" /></svg>
-                            <h3>Escalas, gancho y hachas</h3>
-                            <figcaption>Especialidad tradicional orientada al trabajo manual y táctico en incendios estructurales, con el uso de herramientas para acceso, ventilación y apertura controlada.</figcaption>
-                        </figure>
-                        <figure class="specialties-card">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-firetruck"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" /><path d="M12 18v-11h3" /><path d="M3 17l0 -5l9 0" /><path d="M3 9l18 -6" /><path d="M6 12l0 -4" /></svg>
-                            <h3>Abastecimiento y control de agua</h3>
-                            <figcaption>Incorporada en 1979, esta función incluye el manejo de líneas de agua, abastecimiento desde hidrantes o fuentes naturales, y apoyo a otras compañías durante el combate de incendios.</figcaption>
-                        </figure>
-                        <figure class="specialties-card">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-ladder"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 3v18" /><path d="M16 3v18" /><path d="M8 14h8" /><path d="M8 10h8" /><path d="M8 6h8" /><path d="M8 18h8" /></svg>
-                            <h3>Rescate en altura</h3>
-                            <figcaption>Desde 1989, la compañía cuenta con personal especializado y equipos para operaciones en altura, estructuras elevadas y espacios confinados, garantizando seguridad y eficiencia en situaciones de riesgo.</figcaption>
-                        </figure>
-                    </article>
-                </div>
-        </section>
 
-          <!--La siguiente seccion tiene que modificarse para incluir las autoridades.
-                El diseño puede ser similar a la de la primera de Santiago. 
-                Cada box de la autoridad debe ir en un figure diferentes para luego
-                no tener problemas con el layout en css-->
-                <!--ANADIR IMAGENES-->
+        <section aria-labelledby="specialties-section" class="specialties-section">
+        <header class="specialties-header">
+            <h2>Especialidades</h2>
+            <p>Comprometidos con la protección, prevencion y apoyo a nuestra comunidad</p>
+        </header>
+            <div class="specialties-grid">
+                <article class="specialties-card">
+                    <div class="specialties-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-flame"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.621 -2.333 5.588c0 3.704 3.134 6.706 7 6.706s7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235" /></svg>
+                    </div>
+                    <h3>Escalas, gancho y hachas</h3>
+                    <p>Especialidad tradicional orientada al trabajo manual y táctico en incendios estructurales, con el uso de herramientas para acceso, ventilación y apertura controlada.</p>
+                </article>
+                <article class="specialties-card">
+                    <div class="specialties-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-firetruck"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" /><path d="M12 18v-11h3" /><path d="M3 17l0 -5l9 0" /><path d="M3 9l18 -6" /><path d="M6 12l0 -4" /></svg>
+                    </div>
+                    <h3>Abastecimiento y control de agua</h3>
+                    <p>Incorporada en 1979, esta función incluye el manejo de líneas de agua, abastecimiento desde hidrantes o fuentes naturales, y apoyo a otras compañías durante el combate de incendios.</p>
+                </article>
+                <article class="specialties-card">
+                    <div class="specialties-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-ladder"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 3v18" /><path d="M16 3v18" /><path d="M8 14h8" /><path d="M8 10h8" /><path d="M8 6h8" /><path d="M8 18h8" /></svg>
+                    </div>
+                    <h3>Rescate en altura</h3>
+                    <p>Desde 1989, la compañía cuenta con personal especializado y equipos para operaciones en altura, estructuras elevadas y espacios confinados, garantizando seguridad y eficiencia en situaciones de riesgo.</p>
+                </article>
+            </div>
+        </section>
 
         <section aria-labelby="autorities-section" class="autorities-section">
             <header class="autorities-header">
@@ -186,52 +166,65 @@
                 <p>Directiva del Cuerpo y Oficialidad de la Compañia</p>
             </header>
             <div class="autorities-layout">
-                <figure class="autorities-card">
-                    <figcaption>Directiva y oficiales</figcaption>
-                </figure>
-                <figure class="autorities-card">
-                    <figcaption>Directiva y oficiales</figcaption>            
-                </figure>
-                <figure class="autorities-card">
-                    <figcaption>Directiva y oficiales</figcaption>
-                </figure>
+                <a href="./pages/temp/wip.html">
+                    <article class="autorities-card">
+                        <h3>Directiva y oficiales</h3>
+                    </article>
+                </a>
+                <article class="autorities-card">
+                    <h3>Voluntarios activos</h3>
+                </article>
+                <article class="autorities-card">
+                    <h3>Voluntarios honorarios</h3>
+                </article>
             </div>
         </section>
+
         <section aria-labelledby="material-section" class="material-section">
-            <header class="material-header">
-                <h2>Material mayor</h2>
-                <p>Unidades de la compañía</p>
-            </header>
-            <div class="material-layout">
-                <article class="material-box">
-                    <figure class="material-image">
-                        <img src="#" alt="#">
-                    </figure>
-                    <div class="material-content">
-                        <h3>B-1</h3>
-                    </div>
-                </article>
-                <article class="material-box">
-                    <figure class="material-image">
-                        <img src="#" alt="#">
-                    </figure>
-                    <div class="material-content">
-                        <h3>RX-1</h3>
-                    </div>
-                </article>
-            </div>
+        <header class="material-header">
+            <h2>Material mayor</h2>
+            <p>Unidades de la compañía</p>
+        </header>
+        <div class="material-layout">
+            <article class="material-box">
+                <figure class="material-image">
+                    <img src="./images/material/b-1.jpg" alt="#" height="300px" width="300px">
+                </figure>
+                <div class="material-content">
+                    <h3>B-1</h3>
+                </div>
+            </article>
+            <article class="material-box">
+                <figure class="material-image">
+                    <img src="./images/material/q-1.jpg" alt="#">
+                </figure>
+                <div class="material-content">
+                    <h3>Q-1</h3>
+                </div>
+            </article>
+            <article class="material-box">
+                <figure class="material-image">
+                    <img src="./images/material/m-1.jpg" alt="">
+                </figure>
+                <div class="material-content">
+                    <h3>M-1</h3>
+                </div>
+            </article>
+        </div>
         </section>
-        <section aria-labelledby="donation-section" class="donation-section">
-            <header>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-heart-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.96 6.053" /><path d="M16 19h6" /><path d="M19 16v6" /></svg>
-                <h2>Apoya a la primera compania</h2>
-                <p>Tu aporte nos ayuda a mantener y modernizar nuestro equipamiento, capacitaciones y programas de prevención.</p>
-            </header>
-            <div class="donation-layout">
-                <h3>Te invitamos a hacerte socio</h3>
-                <a href="#">HAZ CLICK AQUI</a>
-            </div>
-        </section>
+
+     <section aria-labelledby="donation-section" class="donation-section">
+        <header>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-heart-plus"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 20l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.96 6.053" /><path d="M16 19h6" /><path d="M19 16v6" /></svg>
+            <h2>Apoya a la primera compania</h2>
+            <p>Tu apoyo es fundamental para mantener nuestros equipos, entrenar a nuestros voluntarios y seguir protegiendo a la comunidad de Temuco.</p>
+        </header>
+        <div class="donation-layout">
+            <h3>Te invitamos a hacerte socio</h3>
+            <a href="#">HAZ CLICK AQUI</a>
+        </div>
+     </section>
+
         <section aria-labelledby="security-section" class="security-section">
             <header class="security-header">
                 <h2>Consejos de seguridad</h2>
@@ -244,10 +237,22 @@
                             <!--Anadir SVG de hogar-->
                             <figcaption>Seguridad en el hogar</figcaption>
                         </figure>
-                        <p>Instala detectores de humo y prueba su funcionamiento mensualmente.</p>
-                        <p>Ten extintor en cocina y zonas de mayor riesgo, revisa su carga.</p>
-                        <p>Mantén vías de evacuación despejadas y planifica rutas de escape.</p>
-                        <p>No sobrecargues enchufes ni alargadores; revisa instalaciones eléctricas.</p>
+                        <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                            <p>Instala detectores de humo y prueba su funcionamiento mensualmente.</p>
+                        </div>
+                        <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                            <p>Ten extintor en cocina y zonas de mayor riesgo, revisa su carga.</p>
+                        </div>
+                        <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                            <p>Mantén vías de evacuación despejadas y planifica rutas de escape.</p>
+                        </div>
+                        <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                            <p>No sobrecargues enchufes ni alargadores; revisa instalaciones eléctricas.</p>
+                        </div>
                     </div>
                 </article>
                 <div class="security-content">
@@ -255,28 +260,54 @@
                         <!--Anadir SVG precaucion-->
                         <figcaption>Prevención</figcaption>
                     </figure>
-                    <p>Nunca dejes la cocina desatendida cuando uses fuego o aceite.</p>
-                    <p>Guarda líquidos inflamables lejos de fuentes de calor.</p>
-                    <p>Limpia ductos, estufas y chimeneas con regularidad.</p>
-                    <p>Si sientes olor a gas, ventila y corta la fuente; no enciendas artefactos.</p>
+                    <div class="security-card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Nunca dejes la cocina desatendida cuando uses fuego o aceite.</p>
+                    </div>
+                    <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Guarda líquidos inflamables lejos de fuentes de calor.</p>
+                    </div>
+                    <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Limpia ductos, estufas y chimeneas con regularidad.</p>
+                    </div>
+                    <div class="security-card-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Si sientes olor a gas, ventila y corta la fuente; no enciendas artefactos.</p>
+                    </div>
                 </div>
                 <div class="security-content">
-                    <figure>
+                    <figure class="security-card-title">
                         <!--Anadir SVG vehiculo-->
                         <figcaption>Seguridad vehicular</figcaption>
                     </figure>
-                    <p>Lleva un extintor y verifica su estado periódicamente.</p>
-                    <p>Si el vehículo se recalienta, estaciónate en un lugar seguro.</p>
-                    <p>No fumes durante la carga de combustible.</p>
-                    <p>Realiza mantenciones preventivas.</p>
+                    <div class="security-card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Lleva un extintor y verifica su estado periódicamente.</p>
+                    </div>
+                    <div class="security-card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Si el vehículo se recalienta, estaciónate en un lugar seguro.</p>
+                    </div>
+                    <div class="security-card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>No fumes durante la carga de combustible.</p>
+                    </div>
+                    <div class="security-card-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-shield-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm3.71 7.293a1 1 0 0 0 -1.415 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" /></svg>
+                        <p>Realiza mantenciones preventivas.</p>
+                    </div>
                 </div>
             </div>
             <footer class="security-section-footer">
-                <h3>Acciones ante emergencias</h3>
-                <h4>Si sientes olor a gas</h4>
-                <p>Ventila el lugar, no enciendas interruptores ni llamas y comunica la emergencia.</p>
-                <h4>Si hay incendio</h4>
-                <p>Evacúa de inmediato, mantente fuera del lugar y <span class="security-call">llama a Bomberos: 132</span>.</p>
+                <div class="security-footer-content">
+                    <h3>Acciones ante emergencias</h3>
+                    <h4>Si sientes olor a gas</h4>
+                    <p>Ventila el lugar, no enciendas interruptores ni llamas y comunica la emergencia.</p>
+                    <h4>Si hay incendio</h4>
+                    <p>Evacúa de inmediato, mantente fuera del lugar y <span class="security-call">llama a Bomberos: 132</span>.</p>
+                </div>
             </footer>
         </section>
     </main>

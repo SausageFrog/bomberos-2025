@@ -1,0 +1,139 @@
+:root {
+    --background: #0b0b0c; 
+    --panel: #111214;
+    --text: #ffffff;
+    --text-muted: #a3a3a3;
+    --border: #232428;
+    --btn-bg: #181a1e;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: safe;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 2rem;
+    background-color: var(--background);
+    color: #ffffff;
+    min-width: 100vh;
+}
+
+.radio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background-color: var(--panel);
+    height: 750px;
+    width: 500px;
+    padding: 1rem;
+}
+
+.radio-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--border);
+    /* outline: 2px solid var(--border); */
+
+    .radio-btn {
+        background-color: var(--btn-bg);
+        display: flex;
+        padding: 0.5rem; 
+        border: 1px solid var(--border);
+        border-radius: 5px;
+
+        a {
+            color: var(--text);
+        }
+    }
+}
+
+.radio-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5)),
+        url(../images/sections/radio-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 1rem;
+
+    .radio-frame-logo {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.radio-footer > p {
+    font-size: 0.8rem;
+}
+
+.code-section {
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background-color: var(--panel);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.code-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+
+.code-input input[type="text"] {
+  background: var(--btn-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  outline: none;
+  color: var(--text);
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.code-list {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
