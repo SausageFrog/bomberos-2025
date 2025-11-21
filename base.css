@@ -39,16 +39,23 @@ h4 { font-size: 1.25rem; }
 h5 { font-size: 1.125rem; }
 h6 { font-size: 1rem; }
 
-header-section {
+.header-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    /* gap: 10rem; */
+    padding: 0.5rem 1rem;
     font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: #ffffff;
 
     img {
-        margin-right: 1rem;
-        height: 40px;
+        height: 70px;
     }
 }
 
@@ -58,19 +65,28 @@ header-section {
     align-items: center;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .header-nav a {
-    text-decoration: none;
-    color: var(--text);
+    color:#ffffff;
     padding: 0.5rem;
     flex-wrap: wrap;
+}
+
+.header-menu-toggle {
+    display: none;
 }
 
 .header-buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    /* justify-content: ; */
+    gap: 1.5rem;
     white-space: nowrap;
     flex-wrap: wrap;
     flex-shrink: 1;
@@ -112,8 +128,8 @@ header-section {
 }
 
 .header-live a{
-    color: var(--primary);
-    padding: 1em;
+    color: #ffffff;
+    /* padding: 1em; */
 }
 
 .header-emergency {
@@ -121,18 +137,56 @@ header-section {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: red;
-    padding: 1rem;
-    border-radius: 8px;
-    height: 3rem;
 }
 
-.header-emergency a{
-    color: var(--destructive-foreground);
+.header-emergency img {
+    height: 50px;
 }
 
 .footer-section {
     padding: 2rem;
     background-color: #101828;
     color: #ffffff;
+}
+
+/* Header - Body - Footer Resposive media querys */
+@media (max-width: 768px) {
+
+    .header-menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+    .header-nav {
+        display: none;
+
+        position:absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .header-nav.is-open {
+        display: flex;
+        margin-bottom: 5rem;
+    }
+
+    .header-live {
+        display: none;
+    }
+
+    .header-section {
+        padding: 1rem;
+    }
+
+    .header-section.is-open {
+        background-color: black;
+    }
 }
