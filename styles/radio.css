@@ -20,6 +20,7 @@ main {
     background-color: var(--background);
     color: #ffffff;
     min-width: 100vh;
+    padding-top: 100px;
 }
 
 .radio-section {
@@ -56,6 +57,20 @@ main {
             color: var(--text);
         }
     }
+}
+
+.radio-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#live-icon-status {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
 }
 
 .radio-frame {
