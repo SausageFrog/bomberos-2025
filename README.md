@@ -42,4 +42,11 @@ Para ejecutar la aplicación localmente:
     Localiza el archivo `index.html` en la carpeta raíz y **ábrelo directamente en tu navegador web** (Chrome, Firefox, Edge, etc.).
 
 ---
-**Desarrollado por [SausageFrog](https://github.com/SausageFrog)**
+
+## 🧑‍💻 Coautoría y Desarrolladores
+
+Este proyecto fue desarrollado en colaboración por:
+
+* **SausageFrog** ([@SausageFrog](https://github.com/SausageFrog))
+* **DaKaRTheWind** ([@DaKaRTheWind](https://github.com/DaKaRTheWind))
+* **danniel147** ([@danniel147](https://github.com/danniel147))
