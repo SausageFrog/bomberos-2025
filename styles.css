@@ -363,10 +363,24 @@ body {
     flex: 0 1 auto;
     overflow: hidden;
 
+    /* Contrast Fix */
+    h3 {
+        color: #FFFFFF;
+        /* Pure White for Titles */
+        margin-top: 1rem;
+    }
+
+    svg {
+        color: #FFFFFF;
+        /* Pure White for Icons */
+    }
+
     p {
         margin-top: 1rem;
         font-size: 0.9rem;
         line-height: 1.4;
+        color: #E0E0E0;
+        /* Light Gray for Descriptions */
     }
 }
 
