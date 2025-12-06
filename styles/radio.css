@@ -19,6 +19,7 @@ main {
     gap: 2rem;
     background-color: var(--background);
     color: #ffffff;
+    min-height: 100vh;
     min-width: 100vh;
     padding-top: 100px;
 }

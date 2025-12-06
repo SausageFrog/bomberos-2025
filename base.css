@@ -145,8 +145,9 @@ h6 { font-size: 1rem; }
 
 .footer-section {
     padding: 2rem;
-    background-color: #101828;
-    color: #ffffff;
+    height: 150px;
+    background-color: #1A1A1A;
+    color: #F0F4F8;
 }
 
 /* Header - Body - Footer Resposive media querys */
