@@ -174,6 +174,8 @@ audio {
 .code-box dt {
     text-wrap: nowrap;
     font-weight: 700;
+    border-left: 4px solid #E65100;
+    padding-left: 0.5rem;
 }
 
 @media (max-width: 768px) {
