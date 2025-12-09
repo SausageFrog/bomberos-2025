@@ -12,7 +12,7 @@
 main {
     display: flex;
     flex-direction: row;
-    align-items: safe;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 4rem;
@@ -20,7 +20,7 @@ main {
     background-color: var(--background);
     color: #ffffff;
     min-height: 100vh;
-    min-width: 100vh;
+    width: 100%;
     padding-top: 100px;
 }
 
@@ -114,6 +114,8 @@ audio {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 750px;
+    width: 500px;
 }
 
 .code-content {
@@ -152,4 +154,37 @@ audio {
     overflow-x: hidden;
 }
 
+.code-container div{
+    row-gap: 5rem;
+}
+
+.code-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+}
+
+.code-box dt {
+    text-wrap: nowrap;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 2rem;
+        padding-top: 100px;
+    }
+
+    .radio-frame {
+        width: 300px;
+        height: 300px;
+    }
+}
 

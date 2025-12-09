@@ -77,6 +77,10 @@ h6 { font-size: 1rem; }
     flex-wrap: wrap;
 }
 
+.nav-radio {
+    display: none;
+}
+
 .header-menu-toggle {
     display: none;
 }
@@ -172,6 +176,17 @@ h6 { font-size: 1rem; }
         flex-direction: column;
         align-items: flex-start;
         padding: 1rem;
+    }
+
+    .nav-radio {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-live-circle {
+        height: 0.5rem;
+        width: 0.5rem;
     }
 
     .header-nav.is-open {
